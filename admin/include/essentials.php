@@ -28,15 +28,15 @@ define('USERS_FOLDER','users/');
 define('PROOF_FOLDER','users/proof');
 
 //paypal config
-define('CLIENT_ID', 'AQOzmpJBYsqKgni6waEJvna7EdHPBook2uIhSdiyWRtuc4q3YGX024UevxtSSdvZitWZTWpAdQ_RI5ne');
-define('CLIENT_SECRET', 'EKZ-XjnH1TQieKzO7KXZQgkBtidcv92uucI_uzlC2rLuExmtRNR5Oq9LY8zGWREf3btg5Et3oDHZGRFu');
+define('CLIENT_ID', ''); // put the API HERE
+define('CLIENT_SECRET', ''); // put the API HERE
 
 define('PAYPAL_RETURN_URL', SITE_URL.'paypalSuccess.php');
 define('PAYPAL_CANCEL_URL', SITE_URL.'paypalCancel.php');
 define('PAYPAL_CURRENCY', 'PHP'); // set your currency here
 
 //sendgrid api key
-define('SENDGRID_API_KEY',"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");
+define('SENDGRID_API_KEY',""); // put the API HERE
 
 
 //sa SESSION login
